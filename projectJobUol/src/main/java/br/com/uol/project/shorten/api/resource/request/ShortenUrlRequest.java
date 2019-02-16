@@ -1,4 +1,4 @@
-package br.com.uol.project.shorten.api.resource.response;
+package br.com.uol.project.shorten.api.resource.request;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 

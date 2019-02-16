@@ -1,5 +1,6 @@
 package br.com.uol.project.shorten.api.service;
 
+import br.com.uol.project.shorten.api.resource.response.ShortenUrlResponse;
 
 /**
  * @author felipelima (felipe.matheuspaiva@gmail.com)
@@ -10,11 +11,13 @@ package br.com.uol.project.shorten.api.service;
 public interface ShortenUrlService {
 	
 	/**
+	 * @return 
 	 * @throws Exception 
 	 * @method for implementation shorten service
 	 * 
 	 */
 	
-	void shortenUrl(final String url);
-
+	public void shortenUrl(final String url);
+	
+	public String findShortenUrl();
 }
